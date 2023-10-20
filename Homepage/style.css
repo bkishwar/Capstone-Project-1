@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url('images/banner.webp');
+    background-size: cover;
+    border-radius: 20px;
+    
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background: white;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+    font-size: 25px;
+    font: bolder;
+    font-weight: bold;
+}
+.menu a{
+    text-decoration: none;
+    color:black;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.register a{
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    margin: 0px 5px; 
+}
+.btn1 {
+    color: rgb(122, 122, 196);
+}
+.btn2 {
+    color: white;
+    background-color: blue;
+}
+.h-text {
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+.h-text h1{
+    font-size: 2em;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    
+}
+.h-text p {
+    padding-top: 5px;
+    letter-spacing: px;
+
+}
+footer .container {
+    background-color: white;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.head {
+    width: 80%;
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
+.head h1 {
+    margin-bottom: 10px;
+}
+.footer-col ul{
+    list-style: none;
+    margin-bottom: 4px;
+  
+}
+.footer-col ul li{
+    padding: 3px 0;
+  
+}
+.footer-col ul li a{
+    color: gray;
+    text-decoration: none;
+ 
+ 
+  
+}
+.footer-col h4{
+    color: black;
+    margin-bottom: 20px;
+    font-size: 19px;
+    position: relative;
+    font-weight: 600;
+    
+}
+.contain{
+    width: 80%;
+    margin: auto;
+}

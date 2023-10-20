@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.sign-up-form {
+width: 350px;
+min-height: 400px;
+background: #fff;
+padding: 10px;
+margin-top:50px;
+margin-left: 500px;
+text-align: center
+tran
+}
+.sign-up-form h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.input-box {
+    padding: 5px;
+    margin: 5px 0;
+    width: 100%;
+    background-color: rgba(198, 189, 189, 0.528);
+    outline: none;
+    border: none;
+}
+button{
+    color: #fff;
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+hr {
+    margin-top: 5px;
+    width: 80%;
+}
+.or-use-one-of-these-options{
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+.logo{
+    
+    margin: 14px 50px;
+}
+.sign-up-form button{
+    border-radius: 8px;
+}
+ .google{
+    background-color: #fff;
+    border: 1px solid gray;
+}
+
+
